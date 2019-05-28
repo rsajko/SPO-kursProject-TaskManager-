@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="NODEPROCESS">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAgAAAAAAAAAAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>WinProcess.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PROCESSLIST" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAACAACAAAAAAA=</HashCode>
+      <FileName>WinProcess.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TREENODE" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAACACAAAACAAA=</HashCode>
+      <FileName>WindowsProcessSort.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="NodeProcess" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinProcess.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ProcessList" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinProcess.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SortMode" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BinTreeNode" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WindowsProcessSort.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Compare" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WindowsProcessSort.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SORTMODE" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Source.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMPARE" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAIA=</HashCode>
+      <FileName>WindowsProcessSort.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
