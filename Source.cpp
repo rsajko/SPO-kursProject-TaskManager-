@@ -6,7 +6,32 @@ typedef enum SORTMODE
 {
 	NO_SORT, BY_ID, BY_NAME
 } SortMode;
+void Memory()
+{
+	using namespace std;
 
+	setlocale(LC_ALL, ".1251");
+
+	MEMORYSTATUSEX statex;
+	statex.dwLength = sizeof(statex);
+
+	GlobalMemoryStatusEx(&statex);
+
+	cout << "ОЗУ " << statex.ullTotalPhys / (1024 * 1024) << " MБ\n";
+
+	HANDLE hVolume = CreateFileA("\\\\.\\C:", GENERIC_READ,
+		FILE_SHARE_READ | FILE_SHARE_WRITE,
+		NULL, OPEN_EXISTING, 0, NULL);
+
+	GET_LENGTH_INFORMATION li;
+	DWORD dwBytesReturned;
+
+	DeviceIoControl(hVolume, IOCTL_DISK_GET_LENGTH_INFO, NULL, 0, &li,
+		sizeof(GET_LENGTH_INFORMATION), &dwBytesReturned, NULL);
+
+	cout << "Том C: " << li.Length.QuadPart / (1024 * 1024 * 1024) << " ГБ\n";
+
+	CloseHandle(hVolume);
 int PushUp(ProcessList *List, HANDLE CONST Log)
 {
 	if (List == NULL)
